@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Baper Bank</title>
+
+
+</head>
+
+<body>
+    <h1 class="text-center text-5xl my-9">Let's checkenoutt <span class="text-blue-400 font-bold ">My Mooooney</span>!!!
+    </h1>
+    <main class="bg-gray-500 w-9/12 mx-auto">
+        <section class=" w-9/12 mx-auto p-8 grid grid-flow-col gap-3">
+            <div class="bg-green-400 p-8 rounded-xl">
+                <h2 class="text-2xl">Deposite</h2>
+                <h1 class="text-5xl">$<span id="depositeTotal">00</span></h1>
+            </div>
+
+            <div class="bg-yellow-400 p-8 rounded-xl">
+                <h2 class="text-2xl">withdraw</h2>
+                <h1 class="text-5xl">$<span id="withdrawtotal">00</span></h1>
+            </div>
+
+            <div class="bg-blue-400 p-8 rounded-xl">
+                <h2 class="text-2xl">Balance</h2>
+                <h1 class="text-5xl">$<span id="Balancetotal">140</span></h1>
+            </div>
+
+        </section>
+        <!-- deosite &withdraw -->
+        <section class="w-9/12 mx-auto mt-6 p-8 grid grid-flow-col gap-3">
+            <div class="bg-fuchsia-400 p-8 rounded">
+                <h4 class="mb-4 text-3xl">please Deposite</h4>
+                <input class="block w-9/12 px-4" type="text" id="Depositefield"
+                    placeholder="$amount you want to Deposite">
+
+                <br> <button id="btn-deposite"
+                    class="bg-amber-600 text-white p-2 px-7 rounded-xl hover:bg-sky-700 ">Deposite</button>
+            </div>
+            <div class="bg-blue-400 p-8 rounded">
+                <h4 class="mb-4 text-3xl">please withdraw</h4>
+                <input class="block w-9/12" type="text" id="withdrawField" placeholder="$amount you want to withdraw">
+
+                <br> <button id="btn-withdraw"
+                    class="bg-amber-600 text-white p-2 px-7 rounded-xl hover:bg-sky-700 ">withdraw</button>
+            </div>
+
+        </section>
+        <button class="bg-amber-600 text-white p-2 px-7 rounded-xl hover:bg-sky-700 "><a
+                href="index.html">Back</a></button>
+
+    </main>
+    <script src="js/utilities.js"></script>
+
+    <!-- <script src="js/deposite.js"></script> -->
+    <!-- <script src="js/withdraw.js"></script> -->
+</body>
+
+
+</html>
